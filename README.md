@@ -25,12 +25,15 @@ This project uses **FinBERT** (a BERT model fine-tuned for financial sentiment) 
 
 ```
 finbert-news-sentiment/
-├── data/                   # Raw and processed financial news data
-├── notebooks/              # Jupyter notebooks for EDA & modeling
-├── app/                    # Streamlit app
-│   ├── main.py
-├── models/                 # Saved models and label encoders
-├── utils/                  # Custom preprocessing and labeling functions
+├── dataset/                   # Raw and processed financial news data
+├── models/                    # Saved models and label encoders
+├── processing/                # Custom preprocessing and labeling functions
+|  ├── NLP.py
+|  ├── prepare_data.py
+|  ├── processing.py
+├── main.py
+├── train.py
+├── predict.py              
 ├── requirements.txt
 └── README.md
 ```
