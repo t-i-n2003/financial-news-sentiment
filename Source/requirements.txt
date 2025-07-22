@@ -1,0 +1,12 @@
+vnstock
+numpy
+pandas 
+bs4 
+torch 
+transformers 
+deep-translator
+openpyxl
+scikit-learn
+streamlit
+nltk ==3.8.1
+plotly
